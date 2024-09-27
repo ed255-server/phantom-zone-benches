@@ -1,0 +1,157 @@
+
+running 17 tests
+test core::lwe::test::encrypt_decrypt ... ignored
+test core::lwe::test::key_switch ... ignored
+test core::rgsw::test::rgsw_by_rgsw ... ignored
+test core::rgsw::test::rlwe_by_rgsw ... ignored
+test core::rlwe::test::automorphism ... ignored
+test core::rlwe::test::encrypt_decrypt ... ignored
+test core::rlwe::test::key_switch ... ignored
+test core::rlwe::test::noise_stats ... ignored
+test core::rlwe::test::sample_extract ... ignored
+test scheme::blind_rotation::lmkcdey::multi_party::interactive::test::bootstrap_nand ... ignored
+test scheme::blind_rotation::lmkcdey::multi_party::interactive::test::bootstrap_three_way ... ignored
+test scheme::blind_rotation::lmkcdey::multi_party::interactive::test::bs_key_gen_determinism ... ignored
+test scheme::blind_rotation::lmkcdey::multi_party::interactive::test::noise_stats_p4_msg1_lut3_padd1_128 ... ignored
+test scheme::blind_rotation::lmkcdey::multi_party::interactive::test::noise_stats_test_param_native ... ignored
+test scheme::blind_rotation::lmkcdey::multi_party::interactive::test::noise_stats_test_param_non_native_power_of_two ... ignored
+test scheme::blind_rotation::lmkcdey::multi_party::interactive::test::noise_stats_test_param_prime ... ignored
+test scheme::blind_rotation::lmkcdey::test::bootstrap_nand ... ignored
+
+test result: ok. 0 passed; 0 failed; 17 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+automorphism/noisy_native/2048
+                        time:   [37.106 µs 37.139 µs 37.173 µs]
+Found 17 outliers among 100 measurements (17.00%)
+  1 (1.00%) low severe
+  4 (4.00%) low mild
+  1 (1.00%) high mild
+  11 (11.00%) high severe
+automorphism/noisy_non_native_power_of_two/2048
+                        time:   [38.369 µs 38.378 µs 38.387 µs]
+Found 7 outliers among 100 measurements (7.00%)
+  2 (2.00%) low severe
+  1 (1.00%) low mild
+  2 (2.00%) high mild
+  2 (2.00%) high severe
+automorphism/native/2048
+                        time:   [222.24 µs 222.43 µs 222.59 µs]
+automorphism/non_native_power_of_two/2048
+                        time:   [223.76 µs 223.85 µs 223.98 µs]
+Found 10 outliers among 100 measurements (10.00%)
+  2 (2.00%) low severe
+  1 (1.00%) low mild
+  2 (2.00%) high mild
+  5 (5.00%) high severe
+automorphism/noisy_prime/2048
+                        time:   [100.98 µs 101.02 µs 101.07 µs]
+Found 6 outliers among 100 measurements (6.00%)
+  1 (1.00%) low severe
+  1 (1.00%) low mild
+  3 (3.00%) high mild
+  1 (1.00%) high severe
+automorphism/prime/2048 time:   [91.059 µs 91.070 µs 91.081 µs]
+Found 15 outliers among 100 measurements (15.00%)
+  3 (3.00%) low severe
+  2 (2.00%) low mild
+  7 (7.00%) high mild
+  3 (3.00%) high severe
+automorphism/noisy_native/4096
+                        time:   [73.069 µs 73.150 µs 73.254 µs]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high severe
+automorphism/noisy_non_native_power_of_two/4096
+                        time:   [74.792 µs 74.807 µs 74.823 µs]
+Found 9 outliers among 100 measurements (9.00%)
+  1 (1.00%) low mild
+  7 (7.00%) high mild
+  1 (1.00%) high severe
+automorphism/native/4096
+                        time:   [432.57 µs 432.64 µs 432.71 µs]
+Found 2 outliers among 100 measurements (2.00%)
+  1 (1.00%) high mild
+  1 (1.00%) high severe
+automorphism/non_native_power_of_two/4096
+                        time:   [432.91 µs 435.26 µs 438.25 µs]
+automorphism/noisy_prime/4096
+                        time:   [187.98 µs 188.07 µs 188.15 µs]
+Found 10 outliers among 100 measurements (10.00%)
+  1 (1.00%) low severe
+  4 (4.00%) low mild
+  3 (3.00%) high mild
+  2 (2.00%) high severe
+automorphism/prime/4096 time:   [190.59 µs 190.79 µs 191.05 µs]
+Found 9 outliers among 100 measurements (9.00%)
+  2 (2.00%) high mild
+  7 (7.00%) high severe
+
+rlwe_by_rgsw/noisy_native/2048
+                        time:   [38.270 µs 38.312 µs 38.362 µs]
+Found 8 outliers among 100 measurements (8.00%)
+  7 (7.00%) high mild
+  1 (1.00%) high severe
+rlwe_by_rgsw/noisy_non_native_power_of_two/2048
+                        time:   [40.913 µs 40.927 µs 40.944 µs]
+Found 12 outliers among 100 measurements (12.00%)
+  1 (1.00%) low severe
+  4 (4.00%) low mild
+  4 (4.00%) high mild
+  3 (3.00%) high severe
+rlwe_by_rgsw/native/2048
+                        time:   [175.28 µs 175.38 µs 175.49 µs]
+Found 11 outliers among 100 measurements (11.00%)
+  1 (1.00%) low severe
+  5 (5.00%) low mild
+  2 (2.00%) high mild
+  3 (3.00%) high severe
+rlwe_by_rgsw/non_native_power_of_two/2048
+                        time:   [173.93 µs 174.55 µs 175.30 µs]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high severe
+rlwe_by_rgsw/noisy_prime/2048
+                        time:   [96.136 µs 96.464 µs 96.818 µs]
+Found 15 outliers among 100 measurements (15.00%)
+  2 (2.00%) high mild
+  13 (13.00%) high severe
+rlwe_by_rgsw/prime/2048 time:   [115.51 µs 115.53 µs 115.55 µs]
+Found 9 outliers among 100 measurements (9.00%)
+  3 (3.00%) high mild
+  6 (6.00%) high severe
+rlwe_by_rgsw/noisy_native/4096
+                        time:   [73.401 µs 73.415 µs 73.429 µs]
+Found 16 outliers among 100 measurements (16.00%)
+  2 (2.00%) low severe
+  3 (3.00%) low mild
+  3 (3.00%) high mild
+  8 (8.00%) high severe
+rlwe_by_rgsw/noisy_non_native_power_of_two/4096
+                        time:   [78.875 µs 78.918 µs 78.963 µs]
+Found 16 outliers among 100 measurements (16.00%)
+  3 (3.00%) low severe
+  8 (8.00%) low mild
+  2 (2.00%) high mild
+  3 (3.00%) high severe
+rlwe_by_rgsw/native/4096
+                        time:   [349.24 µs 349.59 µs 349.95 µs]
+Found 10 outliers among 100 measurements (10.00%)
+  2 (2.00%) low mild
+  7 (7.00%) high mild
+  1 (1.00%) high severe
+rlwe_by_rgsw/non_native_power_of_two/4096
+                        time:   [362.26 µs 362.58 µs 362.91 µs]
+Found 6 outliers among 100 measurements (6.00%)
+  3 (3.00%) low mild
+  2 (2.00%) high mild
+  1 (1.00%) high severe
+rlwe_by_rgsw/noisy_prime/4096
+                        time:   [194.33 µs 194.39 µs 194.48 µs]
+Found 11 outliers among 100 measurements (11.00%)
+  1 (1.00%) low severe
+  3 (3.00%) low mild
+  3 (3.00%) high mild
+  4 (4.00%) high severe
+rlwe_by_rgsw/prime/4096 time:   [245.36 µs 245.38 µs 245.40 µs]
+Found 8 outliers among 100 measurements (8.00%)
+  2 (2.00%) high mild
+  6 (6.00%) high severe
+
