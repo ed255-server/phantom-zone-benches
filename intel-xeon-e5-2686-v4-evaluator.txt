@@ -1,0 +1,48 @@
+
+running 6 tests
+test boolean::evaluator::fhew::test::add_sub ... ignored
+test boolean::evaluator::fhew::test::bit_op ... ignored
+test boolean::evaluator::fhew::test::encrypt_decrypt ... ignored
+test boolean::integer::test::arith_op ... ignored
+test boolean::test::add_sub ... ignored
+test boolean::test::bit_op ... ignored
+
+test result: ok. 0 passed; 0 failed; 6 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+fhew/noisy_native/N=2048/q=4096
+                        time:   [64.682 ms 65.316 ms 65.971 ms]
+Found 2 outliers among 100 measurements (2.00%)
+  2 (2.00%) high mild
+fhew/noisy_non_native_power_of_two/N=2048/q=4096
+                        time:   [65.312 ms 65.757 ms 66.241 ms]
+Found 3 outliers among 100 measurements (3.00%)
+  2 (2.00%) high mild
+  1 (1.00%) high severe
+fhew/noisy_prime/N=2048/q=4096
+                        time:   [129.89 ms 130.52 ms 131.19 ms]
+Found 2 outliers among 100 measurements (2.00%)
+  2 (2.00%) high severe
+fhew/prime/N=2048/q=4096
+                        time:   [137.90 ms 138.49 ms 139.19 ms]
+Found 7 outliers among 100 measurements (7.00%)
+  3 (3.00%) high mild
+  4 (4.00%) high severe
+fhew/noisy_native/N=2048/q=2048
+                        time:   [61.774 ms 62.437 ms 63.184 ms]
+Found 4 outliers among 100 measurements (4.00%)
+  4 (4.00%) high severe
+fhew/noisy_non_native_power_of_two/N=2048/q=2048
+                        time:   [63.135 ms 63.521 ms 63.922 ms]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+fhew/noisy_prime/N=2048/q=2048
+                        time:   [118.08 ms 118.61 ms 119.18 ms]
+Found 3 outliers among 100 measurements (3.00%)
+  2 (2.00%) high mild
+  1 (1.00%) high severe
+fhew/prime/N=2048/q=2048
+                        time:   [129.21 ms 129.67 ms 130.24 ms]
+Found 6 outliers among 100 measurements (6.00%)
+  3 (3.00%) high mild
+  3 (3.00%) high severe
+
