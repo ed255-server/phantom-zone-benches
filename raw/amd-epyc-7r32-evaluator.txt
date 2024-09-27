@@ -1,0 +1,57 @@
+
+running 6 tests
+test boolean::evaluator::fhew::test::add_sub ... ignored
+test boolean::evaluator::fhew::test::bit_op ... ignored
+test boolean::evaluator::fhew::test::encrypt_decrypt ... ignored
+test boolean::integer::test::arith_op ... ignored
+test boolean::test::add_sub ... ignored
+test boolean::test::bit_op ... ignored
+
+test result: ok. 0 passed; 0 failed; 6 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+fhew/noisy_native/N=2048/q=4096
+                        time:   [46.886 ms 46.938 ms 46.996 ms]
+                        change: [-1.2824% -1.1359% -0.9795%] (p = 0.00 < 0.05)
+                        Change within noise threshold.
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high severe
+fhew/noisy_non_native_power_of_two/N=2048/q=4096
+                        time:   [50.160 ms 50.218 ms 50.277 ms]
+                        change: [-0.2313% -0.0739% +0.0776%] (p = 0.37 > 0.05)
+                        No change in performance detected.
+Found 3 outliers among 100 measurements (3.00%)
+  3 (3.00%) high mild
+fhew/noisy_prime/N=2048/q=4096
+                        time:   [103.40 ms 103.57 ms 103.76 ms]
+                        change: [-0.4214% -0.2166% +0.0097%] (p = 0.05 > 0.05)
+                        No change in performance detected.
+Found 2 outliers among 100 measurements (2.00%)
+  2 (2.00%) high severe
+fhew/prime/N=2048/q=4096
+                        time:   [128.32 ms 128.48 ms 128.64 ms]
+                        change: [-2.2910% -2.1281% -1.9587%] (p = 0.00 < 0.05)
+                        Performance has improved.
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) low mild
+fhew/noisy_native/N=2048/q=2048
+                        time:   [43.998 ms 44.059 ms 44.125 ms]
+                        change: [-1.6525% -1.4632% -1.2613%] (p = 0.00 < 0.05)
+                        Performance has improved.
+Found 2 outliers among 100 measurements (2.00%)
+  1 (1.00%) high mild
+  1 (1.00%) high severe
+fhew/noisy_non_native_power_of_two/N=2048/q=2048
+                        time:   [47.355 ms 47.411 ms 47.468 ms]
+                        change: [-0.0892% +0.0722% +0.2345%] (p = 0.38 > 0.05)
+                        No change in performance detected.
+Found 2 outliers among 100 measurements (2.00%)
+  2 (2.00%) high mild
+fhew/noisy_prime/N=2048/q=2048
+                        time:   [96.566 ms 96.698 ms 96.830 ms]
+                        change: [-0.4580% -0.2801% -0.1107%] (p = 0.00 < 0.05)
+                        Change within noise threshold.
+fhew/prime/N=2048/q=2048
+                        time:   [120.99 ms 121.17 ms 121.35 ms]
+                        change: [-1.1772% -0.9751% -0.7654%] (p = 0.00 < 0.05)
+                        Change within noise threshold.
+

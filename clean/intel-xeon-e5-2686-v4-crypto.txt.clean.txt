@@ -1,0 +1,44 @@
+automorphism/noisy_native/2048
+                        time:   [32.080 µs 32.529 µs 33.030 µs]
+automorphism/noisy_non_native_power_of_two/2048
+                        time:   [35.211 µs 35.630 µs 36.048 µs]
+automorphism/native/2048
+                        time:   [200.70 µs 202.48 µs 204.47 µs]
+automorphism/non_native_power_of_two/2048
+                        time:   [202.87 µs 204.39 µs 206.02 µs]
+automorphism/noisy_prime/2048
+                        time:   [84.732 µs 85.312 µs 85.939 µs]
+automorphism/prime/2048 time:   [80.545 µs 80.846 µs 81.202 µs]
+automorphism/noisy_native/4096
+                        time:   [66.530 µs 67.510 µs 68.585 µs]
+automorphism/noisy_non_native_power_of_two/4096
+                        time:   [73.697 µs 74.599 µs 75.564 µs]
+automorphism/native/4096
+                        time:   [412.10 µs 416.49 µs 421.60 µs]
+automorphism/non_native_power_of_two/4096
+                        time:   [423.53 µs 427.09 µs 430.97 µs]
+automorphism/noisy_prime/4096
+                        time:   [175.85 µs 177.36 µs 179.08 µs]
+automorphism/prime/4096 time:   [172.44 µs 172.94 µs 173.50 µs]
+rlwe_by_rgsw/noisy_native/2048
+                        time:   [38.429 µs 39.181 µs 39.928 µs]
+rlwe_by_rgsw/noisy_non_native_power_of_two/2048
+                        time:   [39.263 µs 39.874 µs 40.601 µs]
+rlwe_by_rgsw/native/2048
+                        time:   [176.49 µs 178.02 µs 179.62 µs]
+rlwe_by_rgsw/non_native_power_of_two/2048
+                        time:   [177.97 µs 179.14 µs 180.38 µs]
+rlwe_by_rgsw/noisy_prime/2048
+                        time:   [91.419 µs 91.975 µs 92.517 µs]
+rlwe_by_rgsw/prime/2048 time:   [109.32 µs 109.98 µs 110.96 µs]
+rlwe_by_rgsw/noisy_native/4096
+                        time:   [78.796 µs 79.452 µs 80.127 µs]
+rlwe_by_rgsw/noisy_non_native_power_of_two/4096
+                        time:   [85.397 µs 86.536 µs 87.884 µs]
+rlwe_by_rgsw/native/4096
+                        time:   [362.22 µs 365.34 µs 368.78 µs]
+rlwe_by_rgsw/non_native_power_of_two/4096
+                        time:   [369.45 µs 373.89 µs 379.08 µs]
+rlwe_by_rgsw/noisy_prime/4096
+                        time:   [189.69 µs 190.84 µs 192.19 µs]
+rlwe_by_rgsw/prime/4096 time:   [234.04 µs 236.48 µs 239.47 µs]

@@ -1,0 +1,16 @@
+fhew/noisy_native/N=2048/q=4096
+                        time:   [46.886 ms 46.938 ms 46.996 ms]
+fhew/noisy_non_native_power_of_two/N=2048/q=4096
+                        time:   [50.160 ms 50.218 ms 50.277 ms]
+fhew/noisy_prime/N=2048/q=4096
+                        time:   [103.40 ms 103.57 ms 103.76 ms]
+fhew/prime/N=2048/q=4096
+                        time:   [128.32 ms 128.48 ms 128.64 ms]
+fhew/noisy_native/N=2048/q=2048
+                        time:   [43.998 ms 44.059 ms 44.125 ms]
+fhew/noisy_non_native_power_of_two/N=2048/q=2048
+                        time:   [47.355 ms 47.411 ms 47.468 ms]
+fhew/noisy_prime/N=2048/q=2048
+                        time:   [96.566 ms 96.698 ms 96.830 ms]
+fhew/prime/N=2048/q=2048
+                        time:   [120.99 ms 121.17 ms 121.35 ms]
